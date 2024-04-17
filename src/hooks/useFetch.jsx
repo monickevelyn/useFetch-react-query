@@ -1,6 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios"
 
+// GET na api
+
 const URL_API = 'https://pokeapi.co/api/v2';
 
 const fecthData = async () => {
